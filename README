@@ -1,10 +1,10 @@
 Demo for view controller's life cycle
 
-The application include a main view and and a subview
+The application include a main view and and a (Demo View)
 
 You can add the demo view/remove the demo view by clicking the buttons
 
-in the meantime, check out the logs and find out how the view respond
+in the meantime, check out the logs and find out how the view responds
 to the add/remove event
 
 Also - try to simulate the memory warning when the view is shown/not
