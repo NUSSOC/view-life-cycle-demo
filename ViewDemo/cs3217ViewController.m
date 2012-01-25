@@ -10,6 +10,8 @@
 
 @implementation cs3217ViewController
 
+@synthesize demo,addDemoBtn, removeDemoBtn;
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -22,10 +24,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    demo = [[demoViewController alloc] init]; //initialized from xib
+    removeDemoBtn.enabled = NO;
 }
 
 - (void)viewDidUnload
 {
+    [self setAddDemoBtn:nil];
+    [self setRemoveDemoBtn:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -55,6 +61,18 @@
 {
     // Return YES for supported orientations
     return YES;
+}
+
+- (IBAction)addDemoBtnDidPressed:(id)sender {
+    [self.view addSubview:demo.view];
+    addDemoBtn.enabled = NO;
+    removeDemoBtn.enabled = YES;
+}
+
+- (IBAction)removeDemoBtnDidPressed:(id)sender {
+    [demo.view removeFromSuperview];
+    addDemoBtn.enabled = YES;
+    removeDemoBtn.enabled = NO;
 }
 
 @end

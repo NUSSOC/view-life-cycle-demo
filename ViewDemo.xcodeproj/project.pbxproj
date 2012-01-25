@@ -20,6 +20,8 @@
 		C3D7C6FD14D0551B0087A60F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D7C6DE14D0551B0087A60F /* Foundation.framework */; };
 		C3D7C70514D0551B0087A60F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3D7C70314D0551B0087A60F /* InfoPlist.strings */; };
 		C3D7C70814D0551B0087A60F /* ViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D7C70714D0551B0087A60F /* ViewDemoTests.m */; };
+		C3D7C71414D056220087A60F /* demoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D7C71214D056220087A60F /* demoViewController.m */; };
+		C3D7C71514D056220087A60F /* demoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D7C71314D056220087A60F /* demoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +39,24 @@
 		C3D7C6DC14D0551B0087A60F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C3D7C6DE14D0551B0087A60F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C3D7C6E014D0551B0087A60F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C3D7C6E414D0551B0087A60F /* ViewDemo-Info.plist */ = {isa = PBXFileReference; path = "ViewDemo-Info.plist"; sourceTree = "<group>"; };
+		C3D7C6E414D0551B0087A60F /* ViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewDemo-Info.plist"; sourceTree = "<group>"; };
 		C3D7C6E614D0551B0087A60F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3D7C6E814D0551B0087A60F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C3D7C6EA14D0551B0087A60F /* ViewDemo-Prefix.pch */ = {isa = PBXFileReference; path = "ViewDemo-Prefix.pch"; sourceTree = "<group>"; };
-		C3D7C6EB14D0551B0087A60F /* cs3217AppDelegate.h */ = {isa = PBXFileReference; path = cs3217AppDelegate.h; sourceTree = "<group>"; };
+		C3D7C6EA14D0551B0087A60F /* ViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C3D7C6EB14D0551B0087A60F /* cs3217AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cs3217AppDelegate.h; sourceTree = "<group>"; };
 		C3D7C6EC14D0551B0087A60F /* cs3217AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cs3217AppDelegate.m; sourceTree = "<group>"; };
-		C3D7C6EE14D0551B0087A60F /* cs3217ViewController.h */ = {isa = PBXFileReference; path = cs3217ViewController.h; sourceTree = "<group>"; };
+		C3D7C6EE14D0551B0087A60F /* cs3217ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cs3217ViewController.h; sourceTree = "<group>"; };
 		C3D7C6EF14D0551B0087A60F /* cs3217ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cs3217ViewController.m; sourceTree = "<group>"; };
 		C3D7C6F214D0551B0087A60F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/cs3217ViewController.xib; sourceTree = "<group>"; };
 		C3D7C6F914D0551B0087A60F /* ViewDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D7C6FA14D0551B0087A60F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C3D7C70214D0551B0087A60F /* ViewDemoTests-Info.plist */ = {isa = PBXFileReference; path = "ViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		C3D7C70214D0551B0087A60F /* ViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		C3D7C70414D0551B0087A60F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C3D7C70614D0551B0087A60F /* ViewDemoTests.h */ = {isa = PBXFileReference; path = ViewDemoTests.h; sourceTree = "<group>"; };
+		C3D7C70614D0551B0087A60F /* ViewDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewDemoTests.h; sourceTree = "<group>"; };
 		C3D7C70714D0551B0087A60F /* ViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewDemoTests.m; sourceTree = "<group>"; };
+		C3D7C71114D056220087A60F /* demoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demoViewController.h; sourceTree = "<group>"; };
+		C3D7C71214D056220087A60F /* demoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demoViewController.m; sourceTree = "<group>"; };
+		C3D7C71314D056220087A60F /* demoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = demoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +121,9 @@
 				C3D7C6EE14D0551B0087A60F /* cs3217ViewController.h */,
 				C3D7C6EF14D0551B0087A60F /* cs3217ViewController.m */,
 				C3D7C6F114D0551B0087A60F /* cs3217ViewController.xib */,
+				C3D7C71114D056220087A60F /* demoViewController.h */,
+				C3D7C71214D056220087A60F /* demoViewController.m */,
+				C3D7C71314D056220087A60F /* demoViewController.xib */,
 				C3D7C6E314D0551B0087A60F /* Supporting Files */,
 			);
 			path = ViewDemo;
@@ -223,6 +231,7 @@
 			files = (
 				C3D7C6E714D0551B0087A60F /* InfoPlist.strings in Resources */,
 				C3D7C6F314D0551B0087A60F /* cs3217ViewController.xib in Resources */,
+				C3D7C71514D056220087A60F /* demoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +269,7 @@
 				C3D7C6E914D0551B0087A60F /* main.m in Sources */,
 				C3D7C6ED14D0551B0087A60F /* cs3217AppDelegate.m in Sources */,
 				C3D7C6F014D0551B0087A60F /* cs3217ViewController.m in Sources */,
+				C3D7C71414D056220087A60F /* demoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +441,7 @@
 				C3D7C70D14D0551B0087A60F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3D7C70E14D0551B0087A60F /* Build configuration list for PBXNativeTarget "ViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -439,6 +450,7 @@
 				C3D7C71014D0551B0087A60F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
